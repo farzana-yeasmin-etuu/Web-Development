@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Image_Table_List</title>
 </head>
 <body>
@@ -13,7 +14,8 @@
     <img src="download.jpg" alt="flower">
 
     <table>
-        <caption>Types</caption>
+        <caption>Table</caption>
+       
         <tr>
             <th>Flower1</th>
             <th>Flower2</th>
@@ -26,8 +28,77 @@
             <td>Daisy</td>
             <td>Jasmin</td>
         </tr>
+        <tr>
+            <td>Type 1</td>
+            <td>Type 2</td>
+            <td rowspan="2" >rowspan 2</td>
+            <td>Type 2</td>
+        </tr>
+        <tr>
+            <td>Type 4</td>
+            <td >Type 5</td>
+            <td> Type</td>
+        </tr>
+        <tr>
+            <td>Type 6</td>
+            <td colspan="2">Colspan 2</td>
+            <td>Type 7</td>
+        </tr>
+        <tr>
+            <td>Type 8</td>
+            <td rowspan="2" colspan="2" >rowspan 2 colspan 2</td>
+            <td>Type 9</td>
+        </tr>
+        <tr>
+            <td>Type 10</td>
+          
+            <td>Type11</td>
+        </tr>
+        
+       
     </table>
-    
-    
+     <h1>List</h1>
+     <h2>Unordered list </h2>
+     <h3>square type</h3>
+     <ul type="square">
+        <li>type </li>
+        <li>type </li>
+        <li>type </li>
+     </ul>
+     <h3>Round type(default)</h3>
+     <ul>
+        <li>Type </li>
+        <li>Type </li>
+        <li>Type </li>
+     </ul>
+      <h2>Ordered List</h2>   
+      <h3>Number type(default)</h3>
+    <ol>
+        <li>Type </li>
+        <li>Type </li>
+        <li>Type </li>
+    </ol>
+    <h3>Roman type</h3>
+    <ol type="i">
+        <li>Type </li>
+        <li>Type</li>
+        <li>Type</li>
+    </ol>
+
+    <h3>small alphabet type</h3>
+    <ol type="a">
+        <li>Type </li>
+        <li>Type</li>
+        <li>Type</li>
+    </ol>
+
+    <h3>Capital alphabet type</h3>
+    <ol type="A">
+        <li>Type </li>
+        <li>Type</li>
+        <li>Type</li>
+    </ol>
+
+
 </body>
 </html>
